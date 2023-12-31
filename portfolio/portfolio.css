@@ -1,0 +1,137 @@
+/* body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    background-origin: padding-box;
+    border: 22px red;
+    right: auto;
+}
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+img {
+    height: 430px;
+    width: 430px;
+}
+Add more styles for other sections as needed */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: rgb(41, 149, 156);
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    
+    
+    
+}
+
+header h1 {
+    margin-bottom: 10px;
+    height: 50px;
+    font-size: 40px;
+    padding-top: 10px;
+
+}
+.i {
+    padding-left: 10px;
+}
+.img {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+nav {
+    padding-top: 8px;
+}
+nav ul {
+    border-left: 34px;
+    list-style-type: none;
+    margin: 2px;
+    padding: 0.5px;
+}
+
+nav li {
+    display: inline;
+    padding-left: 30px;
+    margin-right: 20px;
+    color: gold;
+
+}
+nav li a {
+    
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 4px 12px 4px 12px;
+    border-radius: 6px;
+    background-color: rgb(159, 209, 83);
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Add rounded corners to sections */
+}
+
+section h2 {
+    color: #732f2f;
+}
+
+section#contact  {
+    background-color: #b67da4; /* Green color for contact section */
+    color: #863e60;
+    line-height: 1.6;
+}
+p {
+    line-height: 35px;
+    
+}
+
+footer  {
+    text-align:center;
+    padding: 10px;
+    background-color: #396ab384;
+    color: #fff;
+    text-decoration: none;
+}
+footer ol {
+    /* text-decoration: none; */
+    list-style: none;
+}
+
+/* Add animations to the header */
